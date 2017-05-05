@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+#header {
+	margin: 0;
+	padding: 0;
+	background-color: #151D35;
+	display: block;
+}
+
+#menubar {
+	display: block;
+	float: right;
+	width: 100%;
+	heigth: 100%;
+	background-color: #151D35;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+#menubar #category {
+	display: inline-block;
+	float: right;
+	padding: 1em;
+}
+
+#menubar #category li {
+	display: inline;
+	list-style: none;
+	padding: 0.5em;
+	margin: 1em;	
+}
+
+#navbar {
+	display: block;
+	width: 100%;
+	background-color: #5BF;
+	color: #151D35;
+	margin: 0;
+}
+
+#navbar #search {
+	display: block;
+	float: right;
+	background-color: #5BF;
+	color: #151D35;
+	padding: 0.5em 0 0 0;
+	margin: 0;
+}
+
+fieldset {
+	border: none;	
+}
+
+.btn, .buy-btn, .join-btn {
+	background-color: #151D35;
+	border-color: #151D35;
+	border-radius: 0.5em;
+	color: #FFF;	
+}
+
+#navbar #breadcrumb {
+	background-color: #5BF;
+	color: #151D35;
+	list-style-type: none;
+	display: inline-block;
+	max-width: 100%;
+	margin: 0;
+	padding: 1em;
+}
+
+#navbar #breadcrumb li {
+	display: inline;
+	margin: 0;
+	padding: 0;	
+}
+
+#navbar #breadcrumb li + li:before {
+	content: " > ";
+	padding: 0 1em;
+}
+
+#content {
+	display: block;
+	background-color: #FFF;
+	color: #151D35;
+	width: 80em;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#content h1 {
+	margin: 0;
+	padding: 0.2em 1em;	
+}
+
+#content h2, h3 {
+	margin: 0;
+	padding: 0.5em;
+}
+
+#content div.content-block {
+	margin: 0 auto;
+	padding: 0.5em;
+	display: block;	
+}
+
+p {
+	margin: 0;
+	padding: 1em;	
+}
+
+#content div.content-block  p {
+	margin: 0;
+	padding: 0.5em;
+}
+
+#content div.preview,
+#content div.content-block #servis-form {
+	background-color: #5BF;
+	border-radius: 1em;
+	color: #151D35;
+	width: 45%;
+	max-width: 80%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+	margin: 0 0 0.5em 0.5em;
+	padding: 1em;
+}
+
+#content div.preview #contacts, 
+#content div.preview #contacts dd, {
+	display: block;
+}
+
+#content div.preview #contacts dt {
+	display: block;
+	font-weight: bold;	
+}
+	
+#content div.content-block div.preview dd:nth-of-type(3) {
+	display: block;
+	text-align: center;
+	padding: 0.5em 0;
+	font-weight: bold;
+}
+
+dl {
+	display: block;
+}
+
+dd {
+	display: inline;
+	text-align: justify;
+	margin: 0;
+	padding: 0;	
+}
+
+#logo {
+	display: block;
+	padding: 1em;
+	float: left;
+	width: 15vw;	
+}
+
+#servis-form legend {
+	display: block;
+	font-weight: bold;
+}
+
+#servis-form fieldset, #servis-form select {
+	display: inline-block;
+	max-width: 100%;
+}
+
+#servis-form textarea, #servis-form label {
+	display: block;
+	max-width: 100%;
+}
+
+legend, dt {
+	display: none;
+}
+
+img {
+	display: run-in;
+	float: left;	
+	max-width: 100%;
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
+	border-radius: 0.5em;
+}
+
+#footer {
+	background-color: #D4EBFF;
+	margin: 0, auto;
+	padding: 0;
+	border-top: thin;
+	border-color: #151D35;
+	text-align: center;
+}
+
+#footer dl, #footer dd {
+	display: inline-block;
+	margin-right: 1em;
+	float: none;	
+}
+
+#footer dt {
+	display: inline-block;
+	font-weight: bold;
+}
+
+a:link
+{
+	color: white;
+}
+
+/* visited link */
+a:visited 
+{
+	color: white;
+}
+
+/* mouse over link*/
+a:hover
+{
+	color: #D4EBFF;
+	text-decoration: none;
+
+}
+
+/* selected link */
+a:active, #footer a:hover, #footer a:link {
+    color: #5BF;
+}
+
+body {
+	background-color: #D4EBFF;
+	margin: 0;
+	padding: 0;
+}
+
+/* CSS Document */
+

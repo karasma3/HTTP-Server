@@ -1,0 +1,4 @@
+root=/home/debian/karasma3
+port=80
+log=/src/log.txt
+ip=127.0.0.1

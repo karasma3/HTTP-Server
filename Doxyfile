@@ -1,0 +1,10 @@
+PROJECT_NAME   = "CServer"
+PROJECT_BRIEF  = "Several C++ classes representing HTTP server"
+GENERATE_LATEX = NO
+HAVE_DOT       = YES
+UML_LOOK       = YES
+IMAGE_PATH     = "."
+HTML_OUTPUT = doc
+INPUT             = src
+EXTRACT_PRIVATE = YES
+COLLABORATION_GRAPH = YES
