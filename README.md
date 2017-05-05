@@ -8,6 +8,9 @@ HTTP-Server
 - Makefile -makefile
 - README.md -specifikace
 
+## Konfigurace servera
+- konfigurace servera se nachází v /src/config.txt, kde je potřeba nastavit root, port, soubour logu a adresu
+
 ## MakeFile, spuštení servera a generovaní dokumentace
 - make compile -zkompiluje
 - make doc -vygeneruje dokumentace *Doxygen required*
