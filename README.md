@@ -8,8 +8,13 @@ HTTP-Server
 - Makefile -makefile
 - README.md -specifikace
 
+## MakeFile, spuštení servera a generovaní dokumentace
+- make compile -zkompiluje
+- make doc -vygeneruje dokumentace *Doxygen required*
+- make all -zkompiluje a vygeneruje dokumentace
+- make run -spustí server
+- make clean -smaže spustitelný soubor a všechny objektové soubory
 
-## MakeFile a spuštení programu
-- make compile -> make doc -> make run -> make clean
-  
-- make all -> make run -> make clean
+### Dokumentace
+- po vygenerovaní dokumentace se vytvoří adresář /doc/html který obsahuje veškerú dokumentaci k zdrojovému kódu
+
