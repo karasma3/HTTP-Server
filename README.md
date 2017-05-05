@@ -19,5 +19,5 @@ HTTP-Server
 - make clean -smaže spustitelný soubor a všechny objektové soubory
 
 ### Dokumentace
-- po vygenerovaní dokumentace se vytvoří adresář /doc/html který obsahuje veškerú dokumentaci k zdrojovému kódu
+- po vygenerovaní dokumentace se vytvoří adresář /doc který obsahuje veškerú dokumentaci k zdrojovému kódu
 
